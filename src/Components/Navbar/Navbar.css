@@ -21,7 +21,9 @@
   background: linear-gradient(267deg, #afaeae 0.36%, #222018 102.06%);
   font-size: 16px;
   cursor: pointer;
+  transition: 0.5s;
 }
 .nav-connect:hover {
+  transform: scale(1.05);
   background: linear-gradient(267deg, #222018 0.36%, #afaeae 102.06%);
 }
