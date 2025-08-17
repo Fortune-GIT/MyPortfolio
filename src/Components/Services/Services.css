@@ -1,0 +1,33 @@
+/* .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.services-title {
+  position: relative;
+}
+.services-title h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600px;
+  margin-top: 30px;  
+}
+.services-title img {
+  position: absolute;
+  bottom: 45px;
+  right: 1px;
+  z-index: -1;
+  width: 50px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.services-title img:hover {
+  transform: scale(1.10);
+  transition: 0.3s;
+  opacity: 8;
+} */
+ 

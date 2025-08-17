@@ -1,12 +1,16 @@
 .logo {
-  width: 180px;
+  width: 155px;
+  background: url('/fortune_logo.png') no-repeat center center;
   display: inline-block;
+  
 }
 .navbar { 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 170px;
+  margin: 20px 10%;
+  
+ 
 }
 .nav-menu {
   display: flex;
@@ -16,16 +20,14 @@
   font-size: 16px;
 }
 .nav-connect {
-  padding: 20px 40px;
+  padding: 15px 20px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #afaeae 0.36%, #222018 102.06%);
+  background: linear-gradient(270deg, #79416f 10%, #a73f37 100%);
   font-size: 16px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 .nav-connect:hover {
-  transform: scale(1.05);
-}
-.nav-connect:hover {
-  background: linear-gradient(267deg, #222018 0.36%, #afaeae 102.06%);
+  transform: scale(1.10);
+  transition: 0.7s;
 }
